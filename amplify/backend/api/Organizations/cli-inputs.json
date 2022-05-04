@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/organizations": {
+      "name": "/organizations",
+      "lambdaFunction": "organizations",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

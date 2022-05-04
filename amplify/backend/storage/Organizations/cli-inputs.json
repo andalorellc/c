@@ -1,0 +1,10 @@
+{
+  "resourceName": "Organizations",
+  "tableName": "Organizations",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
